@@ -13,6 +13,9 @@ linux installation index
 8. set default python in linux to 3.5 
    echo alias python=python3 >> ~/.bashrc
    source ~/.bashrc
+9. install openssh
+   sudo apt-get install openssh-server
+    如果没有则可以这样启动：sudo /etc/init.d/ssh start或sudo service ssh start 
 
 2. anaconda
 
